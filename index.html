@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+
+    <title>Knowledge Connect</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Tambahkan kode kalian di sini -->
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Knowledge<span>Connect</span> </a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#join-us">Join Us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>KNOWLEDGE CONNECT</h1>
+        <h3>Connecting knowledge around us</h3>
+        <p id="description">
+          Knowledge connect merupakan project berbagi ilmu antar pelajar,
+          mahasiswa, dan umum.
+        </p>
+        <a href="#home" class="join-button">Join Now</a>
+      </main>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="about">
+      <h2>About Knowledge<span>Connect</span></h2>
+      <div class="row">
+        <div class="about-img">
+          <img
+            src="https://images.unsplash.com/photo-1594312915251-48db9280c8f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+            alt="Tentang kami"
+          />
+        </div>
+        <div class="content">
+          <h3>Apa yang dilakukan di Knowledge Connect?</h3>
+          <p>
+            Disini kamu dapat berbagi ilmu dengan member lain. Kamu dapat
+            menuliskan kemampuanmu yang dapat dibagi dengan member lain ataupun
+            ilmu yang kamu cari. Kamu dapat mencari member lain sesuai topik
+            yang ingin kamu pelajari.
+          </p>
+          <p>
+            Akan terdapat juga forum diskusi sesuai fokus topik sepperti
+            persiapan IELTS, Ujian Nasional, Ujian Masuk Universitas dan masih
+            banyak topik khusus lainnya.
+          </p>
+          <p>
+            Bukan hanya forum kamu juga dapat saling terhubung dengan private
+            chat atau group chat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join Us  Section -->
+
+    <section id="join-us" class="join-us">
+      <h2>Join Knowledge<span>Connect</span></h2>
+      <p>
+        Saat ini project Knowledge Connect masih dalam pengembangan, daftarkan
+        diri anda untuk mendapakan informasi terbaru secara langsung.
+      </p>
+
+      <div class="row">
+        <div class="join-img">
+          <img
+            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80"
+            alt="Join Us"
+          />
+        </div>
+        <form action="">
+          <i data-feather="user"></i>
+          <input id="name" type="text" placeholder="Nama" />
+
+          <i data-feather="map-pin"></i>
+          <input id="city" type="text" placeholder="Kota Asal" />
+
+          <i data-feather="mail"></i>
+          <input id="email" type="email" placeholder="E-Mail Aktif" />
+
+          <i data-feather="hash"></i>
+          <input id="zip-code" type="number" placeholder="Kode Pos" />
+
+          <label id="check" for="status">
+            Dengan ini saya menyatakan data yang diisi pada form ini adalah
+            benar dan telah sesuai
+          </label>
+
+          <input id="status" type="checkbox" />
+
+          <button id="submit-form" type="submit">Submit</button>
+
+          <div id="warning"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Powered By <a href="https://skilvul.com" id="link">Skilvul</a></p>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
